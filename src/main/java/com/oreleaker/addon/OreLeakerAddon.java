@@ -15,7 +15,7 @@ public class OreLeakerAddon extends MeteorAddon {
 
     @Override
     public void onRegisterCategories() {
-        Modules.Categories.register(CATEGORY);
+        Modules.registerCategory(CATEGORY);
     }
 
     @Override
