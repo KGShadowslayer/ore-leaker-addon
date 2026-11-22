@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "ore-leaker",
+  "version": "${version}",
+  "name": "Ore Leaker",
+  "description": "Meteor-Addon: Erz-ESP",
+  "authors": ["you"],
+  "environment": "client",
+  "entrypoints": {
+    "meteor": ["com.oreleaker.addon.OreLeakerAddon"]
+  },
+  "depends": {
+    "minecraft": "~1.21.11",
+    "meteor-client": "*"
+  }
+}
