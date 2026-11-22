@@ -12,10 +12,10 @@ public class OreLeakerAddon extends MeteorAddon {
     public void onInitialize() {
         Modules.get().add(new OreLeaker());
     }
-@Override
-public void onRegisterCategories() {
-    Modules.get().addCategory(CATEGORY);
-}
+
+    @Override
+    public void onRegisterCategories() {
+        Modules.Categories.register(CATEGORY);
     }
 
     @Override
